@@ -3,23 +3,25 @@
     display: inline-block;
 }
 
-.icons__square{
+.icon-square{
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     &_yellow{
         background-color: $color-yellow;
-    };
+    }
     &_red{
         background-color: $color-red;
-    };
+    }
     &_blue{
         background-color: $color-blue;
-    };
+    }
     &_violet{
         background-color: $color-violet;
-    };
+    }
     
 }
 
@@ -27,4 +29,32 @@
     background-image: url('/img/icons/play.svg');
     width: 18px;
     height: 19px;
+}
+
+.ico_arrow{
+    background-image: url('/img/icons/arrow.svg');
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 17px;
+}
+
+.ico_snake{
+    background-image: url('/img/icons/snake.svg');
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.ico_heart{
+    background-image: url('/img/icons/heart.svg');
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.ico_clock{
+    background-image: url('/img/icons/clock.svg');
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
 }
